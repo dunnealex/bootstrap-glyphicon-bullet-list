@@ -4,13 +4,20 @@ A CSS stylesheet that allows any Glyphicon included with Bootstrap 3.3.7 to be u
 Either download the whole CSS file, or generate just the glyphicons CSS you need here: https://walrusdunne.github.io/bootstrap-glyphicon-bullet-list/
 
 # Usage
-Apply the `.glyphicon-bullet-list` class to your `<ul>` element with whichever icon from the Bootstrap Glyphicon set prefixed with `list-`. Eg. `<ul class="glyphicon-bullet-list list-chevron-right">`. This will apply the icon to all `<li>`'s in the list.
+Apply the `.glyphicon-bullet-list` class to your `<ul>` element with whichever icon from the Bootstrap Glyphicon set prefixed with `list-` replacing the `glyphicon-` prefix. Eg. `<ul class="glyphicon-bullet-list list-chevron-right">`. This will apply the icon to all `<li>`'s in the list.
+```
+<ul class="gylphicon-bullet-list list-chevron-right">
+ <li>This will have a chevron-right</li>
+ <li>So will this</li>
+ <li>And this one</li>
+</ul>
+```
 
 If you would prefer to assign each bullet individually, just apply the `list-` classes to the `<li>` elements instead of the `<ul>`. Eg.
 ```
 <ul class="glyphicon-bullet-list">
- <li class="list-chevron-right">This is</li>
- <li class="list-asterix">a test.</li>
+ <li class="list-chevron-right">This will have a chevron-right</li>
+ <li class="list-asterix">This will have an asterix</li>
 </ul>
 ```
 
