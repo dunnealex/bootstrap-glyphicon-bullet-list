@@ -1,6 +1,8 @@
 # Bootstrap Glyphicon Bullet List
 A CSS stylesheet that allows any Glyphicon included with Bootstrap 3.3.7 to be used as a &lt;ul> bullet point. Should be used with Bootstrap 3.3.7.
 
+Either download the whole CSS file, or generate just the glyphicons CSS you need here: https://walrusdunne.github.io/bootstrap-glyphicon-bullet-list/
+
 # Usage
 Apply the `.glyphicon-bullet-list` class to your `<ul>` element with whichever icon from the Bootstrap Glyphicon set prefixed with `list-`. Eg. `<ul class="glyphicon-bullet-list list-chevron-right">`. This will apply the icon to all `<li>`'s in the list.
 
