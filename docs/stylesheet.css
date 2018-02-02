@@ -43,3 +43,18 @@ input:checked + .glyphicon-label {
 textarea {
     margin-bottom: 30px;
 }
+
+.nav-arrows {
+    position: fixed;
+    top: 5px;
+    right: 40px;
+}
+
+.nav-arrows a {
+    position: relative;
+    font-size: 24px;
+}
+
+.nav-arrows ul {
+    list-style: none;
+}
