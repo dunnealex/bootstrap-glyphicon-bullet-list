@@ -1109,6 +1109,8 @@ function updateTextArea(override = true) {
         }
         return output;
     });
+
+    console.log(textArea);
 }
 
 function checkboxRefresh() {
@@ -1138,5 +1140,17 @@ $(document).ready(function () {
     $('#includeOverride').on('change', function() {
         overrideBool = $(this).is(':checked');
         updateTextArea(overrideBool);
+    });
+
+    $('#search').on('keyup', function() {
+        var searchTerm = $(this).val();
+        $('.glyphicon-li').each(function(){
+            var searchGlyph = $(this).find('span.glyphicon')[0];
+            if (searchGlyph.classList[1].substring(10).indexOf(searchTerm) == -1) {
+                $(this).hide();
+            } else {
+                $(this).show();
+            }
+        });
     });
 });
